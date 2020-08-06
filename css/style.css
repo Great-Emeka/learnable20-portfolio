@@ -1,2 +1,95 @@
 /*fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,500&display=swap");
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 0px 10px;
+    background: #E8EBF0;
+    font-family: "Work", sans-serif;
+    font-weight: 600;
+
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.about,.projects{
+    padding-right: 25px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #05B993;
+    font-size: 0.8rem;
+}
+
+.nav-links a:hover{
+    color: rgb(247, 140, 140);
+}
+
+.landing{
+    /* margin-top: 3vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+    background: #EAF7F3;
+}
+
+.socialMedia-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 4.3vh;
+}
+
+#picture{
+    width: 240px;
+    height: 260px;
+    border-radius: 50px;
+    margin-top: -130px;
+}
+
+.landing-texts{
+    text-align: center;
+    padding: 10px 15px 5px 15px;
+}
+
+.button{
+    padding: 15px;
+    background: #DC3545;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-radius: 30px;
+}
