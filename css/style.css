@@ -20,8 +20,13 @@ html {
     background: #def7ef;
     font-family: "Work", sans-serif;
     font-weight: 600;
-    position: sticky;
+}
 
+.nav-bar{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100vw;
 }
 
 #logo{
@@ -37,8 +42,12 @@ html {
     align-items: center; 
 }
 
-.about,.projects{
+.about,.projects,.contact{
     padding-right: 25px;
+}
+
+.contact{
+    padding-right: 20px;
 }
 
 .nav-links a{
@@ -52,7 +61,7 @@ html {
 }
 
 .landing{
-    margin-top: -10vh;
+    /* margin-top: -10vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,22 +117,53 @@ section.about{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 6vh;
+}
+
+section#about{
+    background: #EEEEEE;
 }
 
 .about-content{
-    width: 70vw;
+    width: 75vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #7FA2C0;
+    color: black;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px 15px 0px 30px;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
 }
 
 h2{
-    padding-bottom: 10px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    color: white;
 }
 
 .border{
-    width: 45vw;
-    height: 2px;
+    width: 70px;
+    height: 4px;
+    background: #DC3545;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about-btn{
     background: #009688;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    padding: 10px 20px;
+    color: #def7ef;
+    font-weight: 700;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.about-btn:hover{
+    background: #7FA2C0;
+    border: 2px solid red;
+    color: black;
 }
