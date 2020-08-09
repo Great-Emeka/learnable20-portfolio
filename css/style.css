@@ -20,7 +20,7 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px 0px 10px;
-  background: #def7ef;
+  background: #b7f8e4;
   font-family: "Work", sans-serif;
   font-weight: 600;
 }
@@ -63,6 +63,8 @@ html {
 
 .nav-links a:hover {
   color: rgb(247, 140, 140);
+  border-bottom: 4px solid #f80a22;
+  padding-bottom: 8px;
 }
 
 .landing {
@@ -258,7 +260,7 @@ section#projects {
   background: #eaf7f3;
   margin-left: 15vw;
   width: 70vw;
-  box-shadow: 7px 5px 3px 5px #ccc;
+  box-shadow: 7px 5px 3px 5px #b7f8e4;
 }
 
 section.contact {
