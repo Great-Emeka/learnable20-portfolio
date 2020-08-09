@@ -108,13 +108,13 @@ h1{
     border-radius: 30px;
 }
 
-.round-icon{
+/* .round-icon{
     width: 24px;
     height: 24px;
     border: 1px solid black;
     margin-top: 10vh;
     border-radius: 50px;
-}
+} */
 
 .button a {
     text-decoration: none;
@@ -223,8 +223,8 @@ section#projects{
 }
 
 .project-item:hover{
-    transform: scale(2.1);
-    -webkit-transform: scale(2.1);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 
 .project-img{
@@ -250,6 +250,17 @@ section#projects{
     justify-content: flex-start;
     align-items: center;
     padding-top: 60px;
+    padding-bottom: 60px;
+    background: #EAF7F3;
+    margin-left: 15vw;
+    width: 70vw;
+    box-shadow: 7px 5px 3px 5px #ccc;
+}
+
+section.contact{
+    background: #7FA2C0;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 input{
@@ -259,7 +270,7 @@ input{
     color: black;
     box-sizing: border-box;
     border-radius: 30px;
-    padding-left: 1rem;
+    padding-left: 0.7rem;
     height: 15vh;
     max-height: 45px;
     outline: none;
@@ -276,25 +287,50 @@ input:focus{
     color: #cacccf;
   }
 
-/* input#email{
-    
-} */
+input#email{
+    margin: 25px 0px;
+}
 
-/* input#phone-number{
+input#phone-number{
     margin: 0px 0px 25px 0px;
-} */
+}
 
 textarea{
     width: 55vw;
     height: 150px;
-    padding-left: -30px;
+    /* padding-left: -30px; */
     text-align: left;
     margin-top: 10px;
     outline: none;
     border: 2px solid #a0aec0;
-    margin-bottom: 30px;
     resize: none;
 }
 
+.submit-btn{
+        padding: 12px;
+        background: #DC3545;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 700;
+        margin-top: 5px;
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        width: 65vw;
+}
 
+textarea {
+    padding-left: 0px;
+  }
+
+footer{
+    background: #DEF7EF;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
 
