@@ -188,6 +188,212 @@ h2 {
   color: black;
 }
 
+/****************** Skills ************************/
+.container-skills {
+  margin: 20px auto 0 1vw;
+  max-width: 400px;
+  padding-bottom: 40px;
+}
+
+.bar {
+  position: relative;
+  background-color: #d8d8d8;
+  height: 10px;
+  margin: 0 0 20px 0;
+  width: 50vw;
+}
+.bar-fill {
+  position: absolute;
+  height: 10px;
+}
+.bar-title {
+  position: relative;
+  font-size: 0.8em;
+  text-align: left;
+  margin: 0 0 5px 0;
+}
+.percent {
+  position: absolute;
+  right: 0;
+}
+
+/* Animations for the skills-section*/
+/*Edit here for html*/
+.bar-fill-html {
+  width: 90%;
+  background-color: #e44d26;
+  animation: bar-fill-html 2s ease-out;
+  -moz-animation: bar-fill-html 2s ease-out;
+  -webkit-animation: bar-fill-html 2s ease-out;
+}
+@keyframes bar-fill-html {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+@-moz-keyframes bar-fill-html {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+@-webkit-keyframes bar-fill-html {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+/*Edit here for Javascript*/
+.bar-fill-javascript {
+  width: 40%;
+  background-color: #f8dc3d;
+  animation: bar-fill-javascript 2s ease-out;
+  -moz-animation: bar-fill-javascript 2s ease-out;
+  -webkit-animation: bar-fill-javascript 2s ease-out;
+}
+@keyframes bar-fill-javascript {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+@-moz-keyframes bar-fill-javascript {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+@-webkit-keyframes bar-fill-javascript {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+/*Edit here for Css*/
+.bar-fill-css {
+  width: 75%;
+  background-color: #131b28;
+  animation: bar-fill-css 2s ease-out;
+  -moz-animation: bar-fill-css 2s ease-out;
+  -webkit-animation: bar-fill-css 2s ease-out;
+}
+@keyframes bar-fill-css {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+@-moz-keyframes bar-fill-css {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+@-webkit-keyframes bar-fill-css {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+/*Edit here for Responsive*/
+.bar-fill-responsive {
+  width: 50%;
+  background-color: #429f46;
+  animation: bar-fill-responsive 2s ease-out;
+  -moz-animation: bar-fill-responsive 2s ease-out;
+  -webkit-animation: bar-fill-responsive 2s ease-out;
+}
+@keyframes bar-fill-responsive {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+@-moz-keyframes bar-fill-responsive {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+@-webkit-keyframes bar-fill-responsive {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+/*Edit here for figma*/
+.bar-fill-figma {
+  width: 40%;
+  background-color: #0a73dc;
+  animation: bar-fill-figma 2s ease-out;
+  -moz-animation: bar-fill-figma 2s ease-out;
+  -webkit-animation: bar-fill-figma 2s ease-out;
+}
+@keyframes bar-fill-figma {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+@-moz-keyframes bar-fill-figma {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+@-webkit-keyframes bar-fill-figma {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+
 .projects {
   display: flex;
   flex-direction: column;
